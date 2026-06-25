@@ -2,21 +2,21 @@
 
 Bu projem Flask kullanılarak geliştirdiğim basit bir REST API örneğidir.
 
-# Projemin Özellikleri:
+ - Projemin Özellikleri:
 
  GET  ile listedeki tüm öğrencileri gösterilir.
  POST  ile listeye yeni öğrenci eklenir.
  PUT ile öğrenci güncellenebilir.
  DELETE ile öğrenci silinir.
 
-# Kullanılan Teknolojiler
+- Kullanılan Teknolojiler
 
  Python
  Flask
  JSON
  Postman ' dır.
 
-# Nasıl Çalıştırılır ?
+- Nasıl Çalıştırılır ?
 
 ```bash
 pip install flask
