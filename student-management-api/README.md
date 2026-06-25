@@ -1,4 +1,4 @@
-## Student Management API
+# Student Management API
 
 Bu projem Flask kullanılarak geliştirdiğim basit bir REST API örneğidir.
 
