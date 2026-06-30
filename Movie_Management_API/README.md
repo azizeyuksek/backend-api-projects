@@ -1,19 +1,22 @@
-## Movie Management API
+## Movie Management API (SQLite Version)
 
-Bu projemde Python ve Flask mikro-çerçevesi  kullanılarak geliştirilmiş, bellek üzerinde çalışan temel bir **REST API** uygulamasıdır. 
+Bu proje, Python ve Flask mikro-çerçevesi kullanarak geliştirdiğim  verileri geçici listeler yerine **SQLite** veri tabanında kalıcı olarak sakladığım bir REST API uygulamasıdır.
 
-#  Kullanılan Teknolojiler
--  Flask 
--  REST API 
--  HTTP Metotları (`GET`, `POST`, `PUT`, `DELETE`)  
--  Dinamik URL parametreleri (`<int:id>`) ile kaynak yönetimi
--  `JSON` formatında veri alma ve istemciye yanıt dönme
--  Postman ile API endpoint'lerinin test edilmesi ve hata ayıklama (Debugging)
+# Kullanılan Teknolojiler
+ - Python 
+ - Flask 
+ - Flask-SQLAlchemy*
+ - SQLite 
+ - Postman
 
-# Nasıl Çalıştırılır ?
-pip install flask
-python app.py
+# Özellikler & Veri Yapısı
+Uygulama, `movies.db` veri tabanı dosyasını otomatik olarak oluşturur ve tüm CRUD işlemlerini (Ekleme, Listeleme, Güncelleme, Silme) bu dosya üzerinden gerçekleştirir.
 
+# Veri Modeli 
+ - `id` (Integer, Primary Key) - Otomatik artan benzersiz numara
+ - `title` (String) - Film Adı
+ - `scriptwriter` (String) - Senarist
+ - `year` (Integer) - Çıkış Yılı
 
 
 git clone [https://github.com/azizeyuksek/backend-api-projects.git](https://github.com/azizeyuksek/backend-api-projects.git)
